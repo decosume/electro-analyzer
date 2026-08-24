@@ -1,0 +1,29 @@
+{
+  "playlist_name": "Restaurante Brisas",
+  "description": "Ambiente cálido para brunch, comida y cenas con acento latino y cosmopolita.",
+  "public": true,
+  "language_weights": {
+    "es": 0.6,
+    "en": 0.3,
+    "pt": 0.1
+  },
+  "blocks": [
+    {
+      "label": "Brunch",
+      "mood": "restaurant_daytime_brunch",
+      "track_count": 30
+    },
+    {
+      "label": "Comida",
+      "mood": "restaurant_afternoon_energy",
+      "track_count": 30
+    },
+    {
+      "label": "Cena",
+      "mood": "restaurant_evening_lounge",
+      "track_count": 30
+    }
+  ],
+  "rotation_bucket": "restaurant_latin_classics",
+  "rotation_count": 15
+}

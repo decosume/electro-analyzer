@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duques Sta Fe Promo Scheduler</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 24px;
+      padding: 40px;
+    }
+    button {
+      padding: 8px 16px;
+      margin: 0 4px;
+    }
+    input {
+      width: 70px;
+      margin-left: 8px;
+    }
+    iframe {
+      border: none;
+      width: 100%;
+      max-width: 600px;
+      height: 352px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Duques Sta Fe Spotify Player</h1>
+
+  <iframe id="spotify-player" src="https://open.spotify.com/embed/playlist/3s3Xy455ODEMaEPFcoENhW" allow="encrypted-media"></iframe>
+
+  <div>
+    <label>
+      Promo interval (minutes):
+      <input id="interval-min" type="number" value="30" min="1" />
+    </label>
+    <button id="start-schedule">Start promos</button>
+    <button id="stop-schedule">Stop promos</button>
+  </div>
+
+  <div>
+    <button id="play">Play</button>
+    <button id="pause">Pause</button>
+    <button id="resume">Resume</button>
+    <button id="play-promo">Play promo now</button>
+  </div>
+
+  <audio id="promo-audio" src="promo_clip.mp3" preload="auto"></audio>
+
+  <p style="max-width:600px; text-align:center; font-size:0.9rem;">
+    Note: to hear full tracks, click the playlist title inside the player and
+    log into your Spotify Premium account.
+  </p>
+
+  <script>
+    let scheduleTimer = null;
+    const promoAudio = document.getElementById('promo-audio');
+
+    document.getElementById('play').addEventListener('click', () => {
+      document.getElementById('spotify-player').contentWindow.postMessage({type: 'play'}, '*');
+    });
+    document.getElementById('pause').addEventListener('click', () => {
+      document.getElementById('spotify-player').contentWindow.postMessage({type: 'pause'}, '*');
+    });
+    document.getElementById('resume').addEventListener('click', () => {
+      document.getElementById('spotify-player').contentWindow.postMessage({type: 'play'}, '*');
+    });
+
+    const playPromo = () => {
+      promoAudio.currentTime = 0;
+      promoAudio.play();
+    };
+    promoAudio.onplay = () => {
+      document.getElementById('spotify-player').contentWindow.postMessage({type: 'pause'}, '*');
+    };
+    promoAudio.onended = () => {
+      document.getElementById('spotify-player').contentWindow.postMessage({type: 'play'}, '*');
+    };
+
+    document.getElementById('play-promo').addEventListener('click', playPromo);
+
+    document.getElementById('start-schedule').addEventListener('click', () => {
+      const minutes = parseInt(document.getElementById('interval-min').value, 10) || 0;
+      if (minutes <= 0) return;
+      if (scheduleTimer) clearInterval(scheduleTimer);
+      playPromo();
+      scheduleTimer = setInterval(playPromo, minutes * 60 * 1000);
+    });
+    document.getElementById('stop-schedule').addEventListener('click', () => {
+      if (scheduleTimer) {
+        clearInterval(scheduleTimer);
+        scheduleTimer = null;
+      }
+    });
+  </script>
+</body>
+</html>

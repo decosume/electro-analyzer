@@ -1,0 +1,29 @@
+{
+  "playlist_name": "Restaurante Mexicano",
+  "description": "Selección cálida con acento mexicano para cubrir 8 horas de servicio.",
+  "public": true,
+  "language_weights": {
+    "es": 0.8,
+    "en": 0.15,
+    "pt": 0.05
+  },
+  "blocks": [
+    {
+      "label": "Desayunos",
+      "mood": "restaurant_mexican_morning",
+      "track_count": 30
+    },
+    {
+      "label": "Horario fuerte",
+      "mood": "restaurant_mexican_afternoon",
+      "track_count": 40
+    },
+    {
+      "label": "Cenas",
+      "mood": "restaurant_mexican_evening",
+      "track_count": 20
+    }
+  ],
+  "rotation_bucket": "restaurant_mexican_clasicos",
+  "rotation_count": 40
+}

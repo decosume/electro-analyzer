@@ -1,0 +1,43 @@
+{
+  "title": "Playlists Curadas de Spotify",
+  "subtitle": "Diseño sonoro para barberías, restaurantes, gimnasios y retail premium.",
+  "cta": "Manda DM a Digital Monk para tu sistema de playlists.",
+  "image_paths": [
+    "social_media/assets/spotify_curated/playlist_cover.jpg",
+    "social_media/assets/spotify_curated/album_1.jpg",
+    "social_media/assets/spotify_curated/album_2.jpg"
+  ],
+  "background_top": "#1a5658",
+  "background_bottom": "#061617",
+  "accent": "#1ed760",
+  "text_primary": "#f7f5ef",
+  "text_secondary": "#d7dfda",
+  "audio_trim_start": 0.35,
+  "scenes": [
+    {
+      "headline": "Tu espacio merece un sonido propio.",
+      "body": "Música alineada con la marca, la audiencia y el momento.",
+      "duration": 3.2
+    },
+    {
+      "headline": "Pensado para el flujo real del negocio.",
+      "body": "Arranque suave. Energía en hora pico. Cierre más elegante.",
+      "duration": 3.2
+    },
+    {
+      "headline": "Curado cada semana. Nunca al azar.",
+      "body": "Rotación fresca, selección afín a la marca y estructura con promos.",
+      "duration": 3.2
+    },
+    {
+      "headline": "Playlists premium como servicio.",
+      "body": "Diseñadas para sentirse intencionales, pulidas y memorables.",
+      "duration": 3.2
+    },
+    {
+      "headline": "Digital Monk",
+      "body": "Sistemas de playlists en Spotify para negocios modernos.",
+      "duration": 3.2
+    }
+  ]
+}

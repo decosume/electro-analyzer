@@ -1,0 +1,16 @@
+[project]
+name = "spotify-service"
+version = "0.1.0"
+description = "Standalone Spotify playlist service extracted from Electro Analyzer."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "spotipy>=2.23",
+  "fastapi>=0.110",
+  "uvicorn>=0.29",
+  "pydantic>=2.6",
+]
+
+[build-system]
+requires = ["setuptools>=63", "wheel"]
+build-backend = "setuptools.build_meta"

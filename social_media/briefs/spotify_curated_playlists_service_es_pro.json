@@ -1,0 +1,43 @@
+{
+  "title": "Playlists Curadas para Negocios",
+  "subtitle": "Spotify con criterio para barberías, restaurantes, gimnasios y retail premium.",
+  "cta": "Escribe a Digital Monk y armamos el soundtrack de tu marca.",
+  "image_paths": [
+    "social_media/assets/spotify_curated/playlist_cover.jpg",
+    "social_media/assets/spotify_curated/album_1.jpg",
+    "social_media/assets/spotify_curated/album_2.jpg"
+  ],
+  "background_top": "#184f52",
+  "background_bottom": "#061617",
+  "accent": "#1ed760",
+  "text_primary": "#f7f5ef",
+  "text_secondary": "#d7dfda",
+  "audio_trim_start": 0.35,
+  "scenes": [
+    {
+      "headline": "Tu marca también se escucha.",
+      "body": "Cada espacio necesita una identidad musical clara y consistente.",
+      "duration": 3.2
+    },
+    {
+      "headline": "Nada al azar.",
+      "body": "Seleccionamos tracks según flujo, energía, horario y tipo de cliente.",
+      "duration": 3.2
+    },
+    {
+      "headline": "Rotación semanal.",
+      "body": "Sin desgaste, sin repeticiones torpes, sin playlists genéricas.",
+      "duration": 3.2
+    },
+    {
+      "headline": "Promos integradas.",
+      "body": "Mensajes y música conviven sin romper la experiencia del negocio.",
+      "duration": 3.2
+    },
+    {
+      "headline": "Digital Monk",
+      "body": "Spotify curado como sistema, no como playlist suelta.",
+      "duration": 3.2
+    }
+  ]
+}

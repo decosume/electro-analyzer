@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duques Sta Fe Web Playback</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#111; color:#fff; display:flex; flex-direction:column; align-items:center; gap:20px; padding:40px; }
+    button { padding:8px 16px; }
+  </style>
+</head>
+<body>
+  <h1>Duques Sta Fe Web Playback SDK Demo</h1>
+  <p>Log in with Spotify Premium to enable playback.</p>
+  <button id="login">Log into Spotify</button>
+  <div id="player-status">Not connected</div>
+  <div>
+    Client: <input id="client-id" type="text" placeholder="Spotify Client ID" />
+    Playlist URI: <input id="playlist" type="text" value="spotify:playlist:3s3Xy455ODEMaEPFcoENhW" />
+    Redirect URI: <input id="redirect" type="text" value="http://localhost:3000/callback" />
+  </div>
+  <div>
+    <button id="play">Play</button>
+    <button id="pause">Pause</button>
+  </div>
+  <audio id="promo-audio" src="promo_clip.mp3" preload="auto"></audio>
+  <div>
+    <label>Promo interval (minutes): <input id="interval" type="number" value="30" min="1" /></label>
+    <button id="start-promos">Start promos</button>
+    <button id="stop-promos">Stop promos</button>
+  </div>
+
+  <script src="https://sdk.scdn.co/spotify-player.js"></script>
+  <script>
+    const SCOPES = 'streaming user-read-email user-read-private user-modify-playback-state';
+    const loginBtn = document.getElementById('login');
+    const statusEl = document.getElementById('player-status');
+    const promoAudio = document.getElementById('promo-audio');
+    let player;
+    let accessToken = null;
+    let scheduleTimer = null;
+
+    loginBtn.addEventListener('click', () => {
+      const clientId = document.getElementById('client-id').value.trim();
+      const redirectUri = document.getElementById('redirect').value.trim();
+      if (!clientId || !redirectUri) {
+        alert('Please enter Client ID and Redirect URI');
+        return;
+      }
+      const authUrl = `https://accounts.spotify.com/authorize?client_id=${clientId}&response_type=token&redirect_uri=${encodeURIComponent(redirectUri)}&scope=${encodeURIComponent(SCOPES)}`;
+      window.location = authUrl;
+    });
+
+    window.addEventListener('load', () => {
+      const hash = window.location.hash.substring(1);
+      const params = new URLSearchParams(hash);
+      if (params.get('access_token')) {
+        accessToken = params.get('access_token');
+        initializePlayer();
+      }
+    });
+
+    function initializePlayer() {
+      window.onSpotifyWebPlaybackSDKReady = () => {
+        player = new Spotify.Player({
+          name: 'Duques Sta Fe Kiosk',
+          getOAuthToken: cb => cb(accessToken),
+          volume: 0.8
+        });
+
+        player.addListener('ready', ({ device_id }) => {
+          statusEl.textContent = 'Connected to device ' + device_id;
+          const playlistUri = document.getElementById('playlist').value.trim();
+          fetch(`https://api.spotify.com/v1/me/player/play?device_id=${device_id}`, {
+            method: 'PUT',
+            body: JSON.stringify({ context_uri: playlistUri }),
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${accessToken}`
+            }
+          }).catch(err => {
+            statusEl.textContent = 'Auto-play failed: ' + err;
+          });
+        });
+
+        player.addListener('initialization_error', ({ message }) => statusEl.textContent = 'Init error ' + message);
+        player.addListener('authentication_error', ({ message }) => statusEl.textContent = 'Auth error ' + message);
+        player.addListener('account_error', ({ message }) => statusEl.textContent = 'Account error ' + message);
+        player.addListener('player_state_changed', state => {
+          if (!state) return;
+          statusEl.textContent = `Now playing: ${state.track_window.current_track.name}`;
+        });
+
+        player.connect();
+      };
+    }
+
+    document.getElementById('play').addEventListener('click', () => player?.resume());
+    document.getElementById('pause').addEventListener('click', () => player?.pause());
+
+    const playPromo = () => {
+      if (!player) return;
+      player.pause().then(() => {
+        promoAudio.currentTime = 0;
+        promoAudio.play();
+      });
+    };
+    promoAudio.onended = () => player?.resume();
+
+    document.getElementById('start-promos').addEventListener('click', () => {
+      const minutes = parseInt(document.getElementById('interval').value, 10) || 0;
+      if (!minutes) return;
+      if (scheduleTimer) clearInterval(scheduleTimer);
+      playPromo();
+      scheduleTimer = setInterval(playPromo, minutes * 60 * 1000);
+    });
+    document.getElementById('stop-promos').addEventListener('click', () => {
+      if (scheduleTimer) {
+        clearInterval(scheduleTimer);
+        scheduleTimer = null;
+      }
+    });
+  </script>
+</body>
+</html>

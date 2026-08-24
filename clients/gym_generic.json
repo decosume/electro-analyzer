@@ -1,0 +1,17 @@
+{
+  "playlist_name": "Gym Energia",
+  "description": "Sesión completa de 8 horas con warm-up, alta intensidad y cool-down.",
+  "public": true,
+  "language_weights": {
+    "en": 0.6,
+    "es": 0.35,
+    "instrumental": 0.05
+  },
+  "blocks": [
+    {"label": "Warm-up", "mood": "gym_warmup", "track_count": 25},
+    {"label": "High Intensity", "mood": "gym_high_intensity", "track_count": 50},
+    {"label": "Cool-down", "mood": "gym_cooldown", "track_count": 15}
+  ],
+  "rotation_bucket": "gym_classic_hits",
+  "rotation_count": 100
+}

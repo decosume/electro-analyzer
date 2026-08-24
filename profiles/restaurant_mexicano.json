@@ -1,0 +1,736 @@
+{
+  "playlist_name": "Restaurante Mexicano",
+  "description": "Selecci\u00f3n c\u00e1lida con acento mexicano para cubrir 8 horas de servicio.",
+  "public": true,
+  "target_duration_minutes": 480,
+  "curated_queries": [
+    {
+      "query": "Natalia Lafourcade Hasta la Raiz",
+      "id": "3lGMtkONrZdJ8kTCg6KIFf",
+      "duration_ms": 221800
+    },
+    {
+      "query": "Silvana Estrada Te Guardo",
+      "id": "0MbiIQrfTj9U3MXzv3AsoK",
+      "duration_ms": 201674
+    },
+    {
+      "query": "Mon Laferte Tu Falta de Querer",
+      "id": "4skuEIloXWuxxgekKupkEH",
+      "duration_ms": 278546
+    },
+    {
+      "query": "Ximena Sarinana Cobarde",
+      "id": "5076rB7ftd19k0jFNhWr7f",
+      "duration_ms": 256640
+    },
+    {
+      "query": "Caloncho Palmar",
+      "id": "1INtYY3PE2RP7NrhHOsBaz",
+      "duration_ms": 193626
+    },
+    {
+      "query": "Gepe Por La Ventana",
+      "id": "2L0zOUNN7n4ZwCe6KbftFX",
+      "duration_ms": 192546
+    },
+    {
+      "query": "Lila Downs Tonada de Luna Llena",
+      "id": "0cDY6YWjTuodhVZbMce478",
+      "duration_ms": 233973
+    },
+    {
+      "query": "Andrea Echeverri A Siemprevoy",
+      "id": "3kciaiMQxKIebzgTjHYwOZ",
+      "duration_ms": 258026
+    },
+    {
+      "query": "Gaby Moreno Fronteras",
+      "id": "4ebdz7shoFrKM1Sid3pqVU",
+      "duration_ms": 182205
+    },
+    {
+      "query": "Carla Morrison Compartir",
+      "id": "62W7e8PotXRzfAGVYUFeiM",
+      "duration_ms": 244973
+    },
+    {
+      "query": "Jesse y Joy Ecos de Amor",
+      "id": "3lI5dscCDez8cF6LF3Me7F",
+      "duration_ms": 215112
+    },
+    {
+      "query": "Beatriz Luengo Ojos de Mandela",
+      "id": "0WZ1M0UUxHHtL2SiBVXKSR",
+      "duration_ms": 219613
+    },
+    {
+      "query": "Julieta Venegas Limon y Sal",
+      "id": "100Tm6z29RfHTdUQ6NIs0s",
+      "duration_ms": 187520
+    },
+    {
+      "query": "Vicentico Algo Contigo",
+      "id": "4zsDA31stWMtLveU61hejd",
+      "duration_ms": 218440
+    },
+    {
+      "query": "Alex Cuba De Camino",
+      "id": "0OnfT8ZB33ST5fRBzJjaIo",
+      "duration_ms": 206800
+    },
+    {
+      "query": "Esteman Nadie Se Siente Solo",
+      "id": "5TFD2bmFKGhoCRbX61nXY5",
+      "duration_ms": 183685
+    },
+    {
+      "query": "Kevin Kaarl San Lucas",
+      "id": "3aZxnqYFM8UI2jLgUD3B2a",
+      "duration_ms": 247196
+    },
+    {
+      "query": "Jesse y Joy Llorar",
+      "id": "1iRvhKiXRElIH2Uf4gd95P",
+      "duration_ms": 247640
+    },
+    {
+      "query": "Sofia Reyes 1 2 3",
+      "id": "4QtiVmuA88tPQiCOHZuQ5b",
+      "duration_ms": 201526
+    },
+    {
+      "query": "Laura Pausini En Cambio No",
+      "id": "376zCxYCHr7rSFBdz41QyE",
+      "duration_ms": 236613
+    },
+    {
+      "query": "Natalia Lafourcade Soledad y el Mar",
+      "id": "1Xtz05nIgJiEYdncfd1w8h",
+      "duration_ms": 214546
+    },
+    {
+      "query": "Juan Pablo Vega El Alma Juega",
+      "id": "26sncSwReSsEXl5CxS1hMX",
+      "duration_ms": 251708
+    },
+    {
+      "query": "Reyno Siempre",
+      "id": "5wQAhLE7L6HVhVW9tt8aBY",
+      "duration_ms": 250226
+    },
+    {
+      "query": "Ed Maverick Fuentes de Ortiz",
+      "id": "0akyEssGRVHstqCSWXusJL",
+      "duration_ms": 207400
+    },
+    {
+      "query": "Kacey Musgraves Butterflies",
+      "id": "2YWk92sHwPWcQAUZSZRl61",
+      "duration_ms": 219053
+    },
+    {
+      "query": "Kacey Musgraves Butterflies",
+      "id": "2YWk92sHwPWcQAUZSZRl61",
+      "duration_ms": 219053
+    },
+    {
+      "query": "Kacey Musgraves Butterflies",
+      "id": "2YWk92sHwPWcQAUZSZRl61",
+      "duration_ms": 219053
+    },
+    {
+      "query": "Kacey Musgraves Butterflies",
+      "id": "2YWk92sHwPWcQAUZSZRl61",
+      "duration_ms": 219053
+    },
+    {
+      "query": "Marisa Monte Ainda Bem",
+      "id": "43BCxznTSBLcXzu4lJ8KW5",
+      "duration_ms": 215520
+    },
+    {
+      "query": "Bebel Gilberto So Nice (Summer Samba)",
+      "id": "7Kl7Umto8BIl4saZsauWUK",
+      "duration_ms": 212493
+    },
+    {
+      "query": "Bomba Estereo Soy Yo",
+      "id": "4Egb5xP6cniUx0kgZd5zLB",
+      "duration_ms": 159791
+    },
+    {
+      "query": "Los Amigos Invisibles La Que Me Gusta",
+      "id": "1q3AYHVLtrry7SDdRHoYnx",
+      "duration_ms": 239626
+    },
+    {
+      "query": "Kinky A Donde Van Los Muertos",
+      "id": "1EnD6nyUG8FvCR1WH8V1cB",
+      "duration_ms": 257519
+    },
+    {
+      "query": "Miranda Don",
+      "id": "2lqgZDZnlXmVZgToWuoC0l",
+      "duration_ms": 236445
+    },
+    {
+      "query": "Zo\u00e9 Labios Rotos",
+      "id": "1HM9uVbB4DVQh0QlwY7W6v",
+      "duration_ms": 194626
+    },
+    {
+      "query": "Caf\u00e9 Tacvba Volver a Comenzar",
+      "id": "70LC9mcVfFoITE6PAG5s87",
+      "duration_ms": 463960
+    },
+    {
+      "query": "Little Jesus Azules",
+      "id": "6LlK00MTzu3hUqsCMtA64L",
+      "duration_ms": 253043
+    },
+    {
+      "query": "Girl Ultra Discrecion",
+      "id": "18nowS51G3slipQrcRH4bt",
+      "duration_ms": 299550
+    },
+    {
+      "query": "Technicolor Fabrics Fuma",
+      "id": "1AYFgqbN7PuAFQ9gBf6DFx",
+      "duration_ms": 192027
+    },
+    {
+      "query": "La Vida Boheme Radio Capital",
+      "id": "4FQkOekNHC3FQKsbggn9Iz",
+      "duration_ms": 272898
+    },
+    {
+      "query": "Clubz Popscuro",
+      "id": "6lcSysZrIX9Vm3HVqdKvLY",
+      "duration_ms": 237786
+    },
+    {
+      "query": "Technicolor Fabrics Globos",
+      "id": "4utNmwmHfwvzPBT3kMtwEN",
+      "duration_ms": 260508
+    },
+    {
+      "query": "Reyno Dualidad",
+      "id": "67jXySwcqRC6pqmFpVgSnV",
+      "duration_ms": 254106
+    },
+    {
+      "query": "Siddhartha No Es Antes",
+      "id": "1LAVD4UYfFUiV2zIDAI95l",
+      "duration_ms": 279299
+    },
+    {
+      "query": "Los Bunkers Bailando Solo",
+      "id": "1wGNjZQoO4Ac5zotF3aZTb",
+      "duration_ms": 267826
+    },
+    {
+      "query": "DLD Por Siempre",
+      "id": "25ayfrtkcSJfE93B8mnhRT",
+      "duration_ms": 232120
+    },
+    {
+      "query": "Moderatto Ya Lo Veia Venir",
+      "id": "55TzaicixkSM6XT23JvIZA",
+      "duration_ms": 224224
+    },
+    {
+      "query": "Paty Cantu Goma de Mascar",
+      "id": "6mjz8ol0mvfXEeRK3f9Rzr",
+      "duration_ms": 179338
+    },
+    {
+      "query": "Moenia No Puedo Estar Sin Ti",
+      "id": "1WWVPLllFytUxx5yoG3csG",
+      "duration_ms": 212840
+    },
+    {
+      "query": "Motel Olvidame",
+      "id": "4FlHFjk6TR4RQNnI1oYGvQ",
+      "duration_ms": 228466
+    },
+    {
+      "query": "Fobia 200 Sabados",
+      "id": "0YHgekISd38uCR7caS7Yfo",
+      "duration_ms": 214280
+    },
+    {
+      "query": "Plastilina Mosh Mr. P-Mosh",
+      "id": "1ajV3m0YsatQSOxglUjpPh",
+      "duration_ms": 244280
+    },
+    {
+      "query": "Nikki Clan Las Cosas Que Nunca Te Dije",
+      "id": "5gG9fdC3jhrQkkubfsqtEV",
+      "duration_ms": 156440
+    },
+    {
+      "query": "Belanova Baila Mi Corazon",
+      "id": "0GB4zJkbXdXBbdJPgudwDx",
+      "duration_ms": 215680
+    },
+    {
+      "query": "Kabah Antro",
+      "id": "08oWrh7AJHR98971LXvRno",
+      "duration_ms": 229680
+    },
+    {
+      "query": "Molotov Dance and Dense Denso",
+      "id": "5YyetAy34sgROhslaW3BZc",
+      "duration_ms": 210133
+    },
+    {
+      "query": "Moenia Sufre Conmigo",
+      "id": "2rQwdnAJN59YFzXSyAF83O",
+      "duration_ms": 224779
+    },
+    {
+      "query": "Porter Host of a Ghost",
+      "id": "0HTFDQQb7auJ2dZwXtPK5e",
+      "duration_ms": 260466
+    },
+    {
+      "query": "Belinda En el Amor Hay Que Perdonar",
+      "id": "1e6L0EbCaG0TraK7LtbcXE",
+      "duration_ms": 204146
+    },
+    {
+      "query": "Maria Daniela y su Sonido Lasser Miedo",
+      "id": "7btzzrPbkP9hoxa3cUPhSd",
+      "duration_ms": 248146
+    },
+    {
+      "query": "Los Dynamite Ready Ready",
+      "id": "5CPwEvmOZWtwM3t6WpDrC6",
+      "duration_ms": 236453
+    },
+    {
+      "query": "Camilo Septimo Mienteme",
+      "id": "6YyeAJrK1IECGERP6OMEvI",
+      "duration_ms": 277547
+    },
+    {
+      "query": "Rey Pila Let It Burn",
+      "id": "5tUJOt0xFgtxZOrvXOlrfA",
+      "duration_ms": 188474
+    },
+    {
+      "query": "Phoenix 1901",
+      "id": "68hYdj3GepWm2R202KhJT7",
+      "duration_ms": 193106
+    },
+    {
+      "query": "Lizzo About Damn Time",
+      "id": "6HMtHNpW6YPi1hrw9tgF8P",
+      "duration_ms": 191937
+    },
+    {
+      "query": "Rey Pila Let It Burn",
+      "id": "5tUJOt0xFgtxZOrvXOlrfA",
+      "duration_ms": 188474
+    },
+    {
+      "query": "Phoenix 1901",
+      "id": "68hYdj3GepWm2R202KhJT7",
+      "duration_ms": 193106
+    },
+    {
+      "query": "Lizzo About Damn Time",
+      "id": "6HMtHNpW6YPi1hrw9tgF8P",
+      "duration_ms": 191937
+    },
+    {
+      "query": "Anitta Downtown",
+      "id": "3Ga6eKrUFf12ouh9Yw3v2D",
+      "duration_ms": 193456
+    },
+    {
+      "query": "Anitta Downtown",
+      "id": "3Ga6eKrUFf12ouh9Yw3v2D",
+      "duration_ms": 193456
+    },
+    {
+      "query": "Luis Miguel La Barca",
+      "id": "3wogsSWyEEu5eVgLqUqySF",
+      "duration_ms": 226493
+    },
+    {
+      "query": "Benny Ibarra Cielo",
+      "id": "7a2qHL0NZ2IHK8AV68HO5e",
+      "duration_ms": 228693
+    },
+    {
+      "query": "Natalia Lafourcade Tu Si Sabes Quererme",
+      "id": "6p3yxt0uJJshAS3CT0znQg",
+      "duration_ms": 244933
+    },
+    {
+      "query": "Ely Guerra Qui\u00e9reme Mucho",
+      "id": "51tX8W9SSVju5DqlGcoAxy",
+      "duration_ms": 218920
+    },
+    {
+      "query": "Leonel Garcia Te Bes\u00e9",
+      "id": "5gM5j5snS1GjkPp00HYOQS",
+      "duration_ms": 255680
+    },
+    {
+      "query": "Porter Vaquero Galactico",
+      "id": "0HTFDQQb7auJ2dZwXtPK5e",
+      "duration_ms": 260466
+    },
+    {
+      "query": "Tino el Ping\u00fcino Medianoche",
+      "id": "3i1il3IAhDOnm7IXd22BnP",
+      "duration_ms": 228466
+    },
+    {
+      "query": "Siddhartha Br\u00fajula",
+      "id": "6i4IheCT4X0cZrrkmrQGsn",
+      "duration_ms": 252661
+    },
+    {
+      "query": "Inspector Amargo Adios",
+      "id": "4V67aSe3CW6TGUNSuwfXK4",
+      "duration_ms": 229133
+    },
+    {
+      "query": "Natalia Lafourcade Amor Eterno",
+      "id": "3KGkgMnhlrtQ7Apux2n5Tq",
+      "duration_ms": 400000
+    },
+    {
+      "query": "Luz Casal Piensa en Mi",
+      "id": "54vfpkYA0vdCJV9eMSOtKP",
+      "duration_ms": 269360
+    },
+    {
+      "query": "Luis Miguel La Media Vuelta",
+      "id": "1lKI9y1DL6QnYTZguVmACX",
+      "duration_ms": 161040
+    },
+    {
+      "query": "Sin Bandera Entra en Mi Vida",
+      "id": "62clthR0fZmLbxeqxVJatQ",
+      "duration_ms": 240613
+    },
+    {
+      "query": "Reik Yo Quisiera",
+      "id": "2GSr8anleCXKLNjjjijoMZ",
+      "duration_ms": 217986
+    },
+    {
+      "query": "Carlos Rivera Te Esperaba",
+      "id": "5RE3pPEOO3URuRiUBU7K7Y",
+      "duration_ms": 213493
+    },
+    {
+      "query": "Ha*Ash Lo Aprendi de Ti",
+      "id": "3xrpI0GqWNMjMDOdXUOnK3",
+      "duration_ms": 197800
+    },
+    {
+      "query": "Elyella Magic",
+      "id": "0DQzyevCZERVbe8pnX6lyY",
+      "duration_ms": 228253
+    },
+    {
+      "query": "Norah Jones Come Away With Me",
+      "id": "6jGnykaS6TkWp15utXSAeI",
+      "duration_ms": 198226
+    },
+    {
+      "query": "Elyella Magic",
+      "id": "0DQzyevCZERVbe8pnX6lyY",
+      "duration_ms": 228253
+    },
+    {
+      "query": "Moreno Veloso Deusa do Amor",
+      "id": "5TrzsvMz8ASjW4nivQ69Lu",
+      "duration_ms": 297573
+    }
+  ],
+  "rotation_queries": [
+    {
+      "query": "Juan Gabriel Querida",
+      "id": "5ySxlyvySBhIEvoO2xx7uT",
+      "duration_ms": 328320
+    },
+    {
+      "query": "Jos\u00e9 Jos\u00e9 Gavil\u00e1n o Paloma",
+      "id": "0aTMBEfPCCkKkneU6gLmDD",
+      "duration_ms": 253000
+    },
+    {
+      "query": "Marco Antonio Sol\u00eds Mas Que Tu Amigo",
+      "id": "1aftJjib5fzc2U8VlPmHYG",
+      "duration_ms": 210546
+    },
+    {
+      "query": "Yuridia Ya Te Olvid\u00e9",
+      "id": "5WEt9MiZPNmCbhu8GOR9Kk",
+      "duration_ms": 152923
+    },
+    {
+      "query": "Bronco Sergio el Bailador",
+      "id": "3M7WBL64QOmuPiPjhySCJW",
+      "duration_ms": 169600
+    },
+    {
+      "query": "Vicente Fern\u00e1ndez Mujeres Divinas",
+      "id": "3KapNGuqWYFl9gBfJz9tOT",
+      "duration_ms": 193333
+    },
+    {
+      "query": "Los \u00c1ngeles Azules Mis Sentimientos",
+      "id": "2tyEPvpKX4m20YOGo5W6O4",
+      "duration_ms": 216986
+    },
+    {
+      "query": "Ana Torroja A Contratiempo",
+      "id": "683IrkbcXuMdKv2Xwvjzo4",
+      "duration_ms": 278066
+    },
+    {
+      "query": "Caifanes No Dejes Que",
+      "id": "3pJfnBjO3kjudEchcPEDxS",
+      "duration_ms": 288600
+    },
+    {
+      "query": "Fobia Microbito",
+      "id": "2EeCAQN9IKpMGKEK3dQobA",
+      "duration_ms": 157106
+    },
+    {
+      "query": "La Maldita Vecindad Pachuco",
+      "id": "5ovYwJmYcFvSvn6nRQOPyL",
+      "duration_ms": 194200
+    },
+    {
+      "query": "Belanova Rosa Pastel",
+      "id": "49EAN1FCYDbxfEHS3xJvby",
+      "duration_ms": 187546
+    },
+    {
+      "query": "La Sonora Santanera El Ladr\u00f3n",
+      "id": "13mSQNvqsxtnZuC2oDmFon",
+      "duration_ms": 172760
+    },
+    {
+      "query": "Natalia Lafourcade Amor de Mis Amores",
+      "id": "3dB42OEuVNiktvt3V5JRVI",
+      "duration_ms": 237000
+    },
+    {
+      "query": "Pandora Como Te Va Mi Amor",
+      "id": "6Vy53iriyX8Vqx0V68Jzn2",
+      "duration_ms": 222413
+    },
+    {
+      "query": "Selena Como la Flor",
+      "id": "4Dv7hWzxfG1KEyPHcGnRfe",
+      "duration_ms": 183000
+    },
+    {
+      "query": "Selena Amor Prohibido",
+      "id": "1eKvXRg5ntWvQoHZnGCKh3",
+      "duration_ms": 175506
+    },
+    {
+      "query": "Gloria Trevi Todos Me Miran",
+      "id": "4pmRDyDRRiZ5Pq7hm4WTpb",
+      "duration_ms": 204906
+    },
+    {
+      "query": "Alejandra Guzm\u00e1n Hacer el Amor con Otro",
+      "id": "04A2baaw0XUZvMfSq9tHzX",
+      "duration_ms": 197693
+    },
+    {
+      "query": "Thalia Piel Morena",
+      "id": "1LxoxVuG3T5Ji0eCua8N30",
+      "duration_ms": 265333
+    },
+    {
+      "query": "Cristian Castro Azul",
+      "id": "6ZIwZmQ2ph6QK13sItmDEx",
+      "duration_ms": 240480
+    },
+    {
+      "query": "Mijares Soldado del Amor",
+      "id": "2LODTShldQiDsrzT7QCXH7",
+      "duration_ms": 223680
+    },
+    {
+      "query": "Los Tigres del Norte La Puerta Negra",
+      "id": "5TueyPDnDMPSRdQd7VYooI",
+      "duration_ms": 203586
+    },
+    {
+      "query": "Bronco Dos Mujeres Un Camino",
+      "id": "1TlkJzPnsiIh39cW63gOFJ",
+      "duration_ms": 257133
+    },
+    {
+      "query": "Los Angeles Azules 17 A\u00f1os",
+      "id": "1Y372uxsCkKqNclj2ercap",
+      "duration_ms": 181306
+    },
+    {
+      "query": "Los Angeles Azules El List\u00f3n de Tu Pelo",
+      "id": "51dNexiESqcJLsGLrmg1Nv",
+      "duration_ms": 267826
+    },
+    {
+      "query": "Man\u00e1 Rayando el Sol",
+      "id": "0Pjsm4AaJGPOXHoB6xCgJB",
+      "duration_ms": 264599
+    },
+    {
+      "query": "Man\u00e1 Oye Mi Amor",
+      "id": "5EJ2THuhAapEIeQOtXUQ0x",
+      "duration_ms": 263306
+    },
+    {
+      "query": "Jarabe de Palo La Flaca",
+      "id": "3AR1c3Dssq51WlGGkuYJNj",
+      "duration_ms": 288053
+    },
+    {
+      "query": "Caifanes Viento",
+      "id": "6QJCZyJv1fhkCyZA3lRoAD",
+      "duration_ms": 236333
+    },
+    {
+      "query": "Caifanes La C\u00e9lula Que Explota",
+      "id": "6QJCZyJv1fhkCyZA3lRoAD",
+      "duration_ms": 236333
+    },
+    {
+      "query": "Fobia El Microbito",
+      "id": "51PKgx0ep9pIKJxJvTBnqx",
+      "duration_ms": 215413
+    },
+    {
+      "query": "La Maldita Vecindad Kumbala",
+      "id": "5EfHXTq8UPCFyPDvCNIKMm",
+      "duration_ms": 267226
+    },
+    {
+      "query": "Inspector Amnesia",
+      "id": "0zCOT028cU3DeCqN1G18wE",
+      "duration_ms": 228426
+    },
+    {
+      "query": "Control Machete Comprendes Mendes",
+      "id": "2YRDxUyqAXbukcjClvuYsd",
+      "duration_ms": 215266
+    },
+    {
+      "query": "Kabah Vive",
+      "id": "1SVm64B4Ry7dqFSxHY8e65",
+      "duration_ms": 236160
+    },
+    {
+      "query": "OV7 Shabadabada",
+      "id": "66EqOhWfTcdVphw00lcxZO",
+      "duration_ms": 235133
+    },
+    {
+      "query": "Belanova Rosa Pastel",
+      "id": "49EAN1FCYDbxfEHS3xJvby",
+      "duration_ms": 187546
+    },
+    {
+      "query": "Reik Invierno",
+      "id": "22seP38foydqUMp5Fvkcjm",
+      "duration_ms": 222986
+    },
+    {
+      "query": "Panda Los Malaventurados No Lloran",
+      "id": "0R6s0WCBfgQ2dByPFSBh63",
+      "duration_ms": 207786
+    },
+    {
+      "query": "Zo\u00e9 Love",
+      "id": "1HM9uVbB4DVQh0QlwY7W6v",
+      "duration_ms": 194626
+    },
+    {
+      "query": "Natalia Lafourcade En el 2000",
+      "id": "2cVJwPD5CaTx2kBZyomzGN",
+      "duration_ms": 215000
+    },
+    {
+      "query": "Lila Downs La Llorona",
+      "id": "1W88VFG7s2ufqQWW0b1xA8",
+      "duration_ms": 140493
+    },
+    {
+      "query": "Julio Iglesias Me Olvid\u00e9 de Vivir",
+      "id": "4EVFCcP3BtujqYgw9jV3yF",
+      "duration_ms": 363826
+    },
+    {
+      "query": "Lupita D'Alessio Mentiras",
+      "id": "2inQuIiMh57WacRsHO6xkF",
+      "duration_ms": 253178
+    },
+    {
+      "query": "Camila Mientes",
+      "id": "5EhzE6HJaCcLFrf5rPqvpk",
+      "duration_ms": 205160
+    },
+    {
+      "query": "Ha*Ash Te Dejo en Libertad",
+      "id": "6bszrPfNNPOKyJStfJ4stu",
+      "duration_ms": 238413
+    },
+    {
+      "query": "Jesse y Joy Dueles",
+      "id": "1iRvhKiXRElIH2Uf4gd95P",
+      "duration_ms": 247640
+    },
+    {
+      "query": "Mon Laferte Amor Completo",
+      "id": "4skuEIloXWuxxgekKupkEH",
+      "duration_ms": 278546
+    },
+    {
+      "query": "Ximena Sari\u00f1ana Vidas Paralelas",
+      "id": "1n39WXv58zOCFVLnGlVJNg",
+      "duration_ms": 177272
+    },
+    {
+      "query": "Monsieur Perin\u00e9 Nuestra Canci\u00f3n",
+      "id": "5reQI13tWWYDLMrGcUF4Mk",
+      "duration_ms": 260079
+    },
+    {
+      "query": "La Santa Cecilia La Negra",
+      "id": "06V6z5CjWoyVOsHXR5PgR7",
+      "duration_ms": 200026
+    },
+    {
+      "query": "Los Aterciopelados Bolero Falaz",
+      "id": "40No6L4Mpjpy1hS1BPCpNA",
+      "duration_ms": 225233
+    },
+    {
+      "query": "Roc\u00edo D\u00farcal Amor Eterno",
+      "id": "2ISbjuCyVJPTLPlL17Kpcz",
+      "duration_ms": 410173
+    },
+    {
+      "query": "Pedro Infante Cien A\u00f1os",
+      "id": "760r2LXNtMaHDKMQ5wkXbi",
+      "duration_ms": 212706
+    }
+  ],
+  "seed_genres": []
+}

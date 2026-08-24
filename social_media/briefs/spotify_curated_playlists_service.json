@@ -1,0 +1,42 @@
+{
+  "title": "Spotify Curated Playlists",
+  "subtitle": "Digital Monk creates branded music for barbershops, restaurants, gyms, and retail.",
+  "cta": "DM Digital Monk to build your business soundtrack.",
+  "image_paths": [
+    "social_media/assets/spotify_curated/playlist_cover.jpg",
+    "social_media/assets/spotify_curated/album_1.jpg",
+    "social_media/assets/spotify_curated/album_2.jpg"
+  ],
+  "background_top": "#1c5c5e",
+  "background_bottom": "#081b1c",
+  "accent": "#1ed760",
+  "text_primary": "#f7f5ef",
+  "text_secondary": "#d3ddd7",
+  "scenes": [
+    {
+      "headline": "Your business should sound as premium as it looks.",
+      "body": "Turn background music into part of the brand experience.",
+      "duration": 3.5
+    },
+    {
+      "headline": "We curate Spotify playlists for real business environments.",
+      "body": "Barbershops. Restaurants. Gyms. Retail spaces.",
+      "duration": 3.5
+    },
+    {
+      "headline": "Built around vibe, audience, and schedule.",
+      "body": "Morning warm-up. Lunch energy. Evening wind-down.",
+      "duration": 3.5
+    },
+    {
+      "headline": "Weekly rotation keeps it fresh.",
+      "body": "Curated track updates, promo placement, and brand-fit sequencing.",
+      "duration": 3.5
+    },
+    {
+      "headline": "Music direction without the guesswork.",
+      "body": "Designed to feel intentional, polished, and repeat-worthy.",
+      "duration": 3.5
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+[build-system]
+requires = ["hatchling>=1.24.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "electro-analyzer"
+version = "0.1.0"
+description = "Analyze electronic music tracks for BPM, key, structural sections, drops, and energy."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Electro Analyzer Contributors" }]
+requires-python = ">=3.11"
+dependencies = [
+  "librosa>=0.10.0",
+  "matplotlib>=3.7.0",
+  "numpy>=1.26.0",
+  "pyloudnorm>=0.2.0",
+  "spotipy>=2.23.0",
+  "scipy>=1.11.0",
+  "soundfile>=0.12.1",
+  "typer>=0.9.0",
+]
+keywords = ["audio", "music", "analysis", "bpm", "key", "cli"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.11",
+  "License :: OSI Approved :: MIT License",
+  "Intended Audience :: Developers",
+  "Intended Audience :: Science/Research",
+  "Topic :: Multimedia :: Sound/Audio :: Analysis",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black>=24.0.0",
+  "mypy>=1.8.0",
+  "pre-commit>=3.5.0",
+  "pytest>=8.0.0",
+  "pytest-cov>=4.1.0",
+  "ruff>=0.3.0",
+]
+
+[project.scripts]
+electro = "electro_analyzer.cli:app"
+
+[tool.hatch.version]
+path = "src/electro_analyzer/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/electro_analyzer"]
+
+[tool.black]
+line-length = 88
+target-version = ["py311"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+select = ["E", "F", "I", "B", "UP", "N", "S", "W", "PL"]
+ignore = ["E501"]
+
+[tool.ruff.per-file-ignores]
+"tests/*" = ["S101"]
+
+[tool.mypy]
+python_version = "3.11"
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+no_implicit_optional = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+warn_return_any = true

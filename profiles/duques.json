@@ -1,0 +1,926 @@
+{
+  "playlist_name": "Duques Sta Fe",
+  "description": "11a–8p barber flow: warm-up soul, high-energy funk, smooth wind-down.",
+  "public": true,
+  "excluded_artists": ["Jamiroquai"],
+  "local_item_positions": [6, 11, 17, 22, 28, 34, 39, 45, 50, 56, 62, 67, 73, 78, 84, 90, 95, 101, 107, 112, 118, 123, 129, 135, 140, 146, 151],
+  "target_duration_minutes": 540,
+  "curated_queries": [
+    {
+      "query": "GOTA Let's Get Started"
+    },
+    {
+      "query": "D'Angelo Spanish Joint",
+      "id": "4euxFlxLWVGmZZLyYARTyE",
+      "duration_ms": 344493
+    },
+    {
+      "query": "Khruangbin Connaissais de Face",
+      "id": "0ibpvxLcFccvQJd0SjdUvW",
+      "duration_ms": 260732
+    },
+    {
+      "query": "Sault Wildfires",
+      "id": "4Tzw9IdZbVyzmpWrvsGaNX",
+      "duration_ms": 206947
+    },
+    {
+      "query": "PJ Morton Built for Love",
+      "id": "5LpLw3R6TDlvmOIsgeCNjy",
+      "duration_ms": 205308
+    },
+    {
+      "query": "Phony Ppl Finesse",
+      "id": "3qRPc4QpHGNwKFAzCdqwxA",
+      "duration_ms": 203000
+    },
+    {
+      "query": "Samm Henshaw Church",
+      "id": "1T37rmthd8KPcRPcD5Tm7u",
+      "duration_ms": 228117
+    },
+    {
+      "query": "Kaytranada 10%",
+      "id": "41SwdQIX8Hy2u6fuEDgvWr",
+      "duration_ms": 186680
+    },
+    {
+      "query": "Daniel Caesar Best Part",
+      "id": "1Q7EgiMOuwDcB0PJC6AzON",
+      "duration_ms": 209831
+    },
+    {
+      "query": "Kaytranada Intimidated",
+      "id": "0dFdGPVLs3k0z9ezYWZzUa",
+      "duration_ms": 207830
+    },
+    {
+      "query": "Chic I Want Your Love",
+      "id": "3gEO96MkIShkDIQuJRry0S",
+      "duration_ms": 415466
+    },
+    {
+      "query": "Rick James Give It to Me Baby",
+      "id": "13v3siPyvy5TTEZYmGPPse",
+      "duration_ms": 248133
+    },
+    {
+      "query": "Chromeo Fancy Footwork",
+      "id": "52VaYLDBhX5vNd8taZxA1R",
+      "duration_ms": 198019
+    },
+    {
+      "query": "Jamila Woods Boundaries",
+      "id": "7olP7S3e0XDQ08eisCHVgp",
+      "duration_ms": 220411
+    },
+    {
+      "query": "Masego Mystery Lady",
+      "id": "6FMMd1fixOMmhplCevpjL7",
+      "duration_ms": 301893
+    },
+    {
+      "query": "Childish Gambino Redbone",
+      "id": "3vQ4T78TTMOjQXGfXVKQJo",
+      "duration_ms": 326933
+    },
+    {
+      "query": "Moonchild The List",
+      "id": "1WW5HUUtCvm5FJLBYGxTNL",
+      "duration_ms": 305760
+    },
+    {
+      "query": "Leon Bridges Smooth Sailin'",
+      "id": "3jpeI1goQHPIwwCMxrLrwx",
+      "duration_ms": 187440
+    },
+    {
+      "query": "VanJess Come Over",
+      "id": "4Jsqi44IrfUjdigUfZiaqr",
+      "duration_ms": 222293
+    },
+    {
+      "query": "Black Pumas Colors",
+      "id": "6d4FWjx72iuRWzn1HwywLK",
+      "duration_ms": 246586
+    },
+    {
+      "query": "Jungle Keep Moving",
+      "id": "44ZKnfWEkp7wPs035j4Tua",
+      "duration_ms": 234369
+    },
+    {
+      "query": "Sinead Harnett Last Love",
+      "id": "15hQDO74LAH1lXyqUDVNc4",
+      "duration_ms": 153893
+    },
+    {
+      "query": "Rosie Lowe The Way",
+      "id": "1B4FoOvmImC6pKOkpQf2eL",
+      "duration_ms": 379697
+    },
+    {
+      "query": "Leon Bridges Steam",
+      "id": "0JhOWLV0il0wcoyOr2kaCx",
+      "duration_ms": 203091
+    },
+    {
+      "query": "Jordan Rakei Wind Parade",
+      "id": "0g941Kqd2InTMBbJO4eFlf",
+      "duration_ms": 288640
+    },
+    {
+      "query": "Maze Before I Let Go",
+      "id": "0QEebnjzgRsHR0lO6gHsn0",
+      "duration_ms": 307266
+    },
+    {
+      "query": "Jungle Smile",
+      "id": "3BHxg5xwE1WllM1IHJNCEb",
+      "duration_ms": 187148
+    },
+    {
+      "query": "GOTA European Comfort"
+    },
+    {
+      "query": "Esperanza Spalding I Know You Know",
+      "id": "3afeZ81GDy59tATovKyH6Z",
+      "duration_ms": 225200
+    },
+    {
+      "query": "Jordan Rakei Sorceress",
+      "id": "0spiR9eDh1Fa9IQ2E3VrJW",
+      "duration_ms": 183814
+    },
+    {
+      "query": "FKJ Ylang Ylang",
+      "id": "2CuUB5MbfRShtunR8g5hjR",
+      "duration_ms": 213000
+    },
+    {
+      "query": "Nao Good Morning",
+      "id": "2EywWYS6WGf44fOJnzFfyf",
+      "duration_ms": 244680
+    },
+    {
+      "query": "Earth Wind & Fire September",
+      "id": "2grjqo0Frpf2okIBiifQKs",
+      "duration_ms": 215005
+    },
+    {
+      "query": "Tom Misch It Runs Through Me",
+      "id": "0vMctOnb4YNIvbqgkbWNDy",
+      "duration_ms": 261881
+    },
+    {
+      "query": "Erykah Badu On & On",
+      "id": "5DdcFp2xopqKXayXstE0Il",
+      "duration_ms": 229800
+    },
+    {
+      "query": "Kali Uchis Telepatía",
+      "id": "6tDDoYIxWvMLTdKpjFkc1B",
+      "duration_ms": 160191
+    },
+    {
+      "query": "Musiq Soulchild Just Friends",
+      "id": "0IZYokTdVZpB7Oj1Aw3A07",
+      "duration_ms": 251426
+    },
+    {
+      "query": "Madison McFerrin Stay Away (From Me)",
+      "id": "7BXiYR26xUYRrZ4D9SSU4F",
+      "duration_ms": 177401
+    },
+    {
+      "query": "Thundercat Them Changes",
+      "id": "7CH99b2i1TXS5P8UUyWtnM",
+      "duration_ms": 188453
+    },
+    {
+      "query": "Moses Sumney Cut Me",
+      "id": "1A2BT8JYVRjsKdswwvWXG6",
+      "duration_ms": 250120
+    },
+    {
+      "query": "Allen Stone Brown Eyed Lover",
+      "id": "53t89JaXOgmB7u1C7KKCCW",
+      "duration_ms": 237964
+    },
+    {
+      "query": "Jordan Mackampa Under",
+      "id": "26wwYZFOuJHJZ8pPPDg7XU",
+      "duration_ms": 160619
+    },
+    {
+      "query": "Cleo Sol Shine",
+      "id": "7iEKaA9Kkn9JfqyKb9HEvR",
+      "duration_ms": 226118
+    },
+    {
+      "query": "Erykah Badu Didn't Cha Know",
+      "id": "1MxKzOM9OGRjWozuaJQQF0",
+      "duration_ms": 242466
+    },
+    {
+      "query": "Gallant Weight in Gold",
+      "id": "1gXBi2I04CLJkTQnhNfEJT",
+      "duration_ms": 203813
+    },
+    {
+      "query": "Talib Kweli Hot Thing",
+      "id": "4i5729wDdQ8do84puBSA6u",
+      "duration_ms": 228453
+    },
+    {
+      "query": "Maxwell Ascension (Don't Ever Wonder)",
+      "id": "6l4TNbfPtNAOOlGIfceSaO",
+      "duration_ms": 345975
+    },
+    {
+      "query": "Maxwell Ascension (Don't Ever Wonder)",
+      "id": "6l4TNbfPtNAOOlGIfceSaO",
+      "duration_ms": 345975
+    },
+    {
+      "query": "Blood Orange You're Not Good Enough",
+      "id": "7vcNp4cj4uF4AyX5aKY4Ps",
+      "duration_ms": 261360
+    },
+    {
+      "query": "Anderson .Paak Put Me Thru",
+      "id": "70SjyVMzhmMeJQD8hOmIBp",
+      "duration_ms": 160760
+    },
+    {
+      "query": "Average White Band Pick Up the Pieces",
+      "id": "2H5nsVLjDwWsxfyajm0lVS",
+      "duration_ms": 234586
+    },
+    {
+      "query": "Ravyn Lenae Skin Tight",
+      "id": "1fmfarh0JM08oF5FVRRGir",
+      "duration_ms": 227001
+    },
+    {
+      "query": "PJ Morton Say So",
+      "id": "28fObLCR38ziwHa7vKXQ0J",
+      "duration_ms": 213134
+    },
+    {
+      "query": "The Isley Brothers Between the Sheets",
+      "id": "7GazZcRE8uDL24PzwyUe2f",
+      "duration_ms": 338573
+    },
+    {
+      "query": "Teedra Moses Be Your Girl",
+      "id": "3zp3Mq8krAb1067UL94zJq",
+      "duration_ms": 268087
+    },
+    {
+      "query": "Honne Day 1",
+      "id": "6ZzYETKetIfNUsZUb23jgG",
+      "duration_ms": 233600
+    },
+    {
+      "query": "Giveon Heartbreak Anniversary",
+      "id": "2QfznFotJNZmnIEYFdzE5T",
+      "duration_ms": 196794
+    },
+    {
+      "query": "Bruno Mars 24K Magic",
+      "id": "6b8Be6ljOzmkOmFslEb23P",
+      "duration_ms": 225983
+    },
+    {
+      "query": "Arlo Parks Hope",
+      "id": "23bwujVYKeGdbcLd2LQxVo",
+      "duration_ms": 270066
+    },
+    {
+      "query": "Bill Withers Who Is He",
+      "id": "1KywyxekfDEp3Ym7YP7S25",
+      "duration_ms": 194427
+    },
+    {
+      "query": "Robert Glasper Better Than I Imagined",
+      "id": "4i8AsLFPCFip6SbEDOFvYq",
+      "duration_ms": 291613
+    },
+    {
+      "query": "D'Angelo Lady",
+      "id": "7AjfklMN4WpQYz5FkT4E66",
+      "duration_ms": 346266
+    },
+    {
+      "query": "Alex Isley Good & Plenty",
+      "id": "1VAKnb1btGrQXcVZVSRkPe",
+      "duration_ms": 204705
+    },
+    {
+      "query": "Parliament Give Up the Funk",
+      "id": "4XRkQloZFcRrCONN7ZQ49Y",
+      "duration_ms": 348066
+    },
+    {
+      "query": "Lana Del Rey Mariners Apartment Complex",
+      "id": "6OG05bPAwUuV3OMvy2Vy1P",
+      "duration_ms": 247150
+    },
+    {
+      "query": "GOTA Someday"
+    },
+    {
+      "query": "Patrice Rushen Haven't You Heard",
+      "id": "1AAanCnoJF7USJKG9dEjey",
+      "duration_ms": 405293
+    },
+    {
+      "query": "India.Arie Video",
+      "id": "4oiAlcisfimXQc1wyAtX9a",
+      "duration_ms": 249960
+    },
+    {
+      "query": "Omar There's Nothing Like This",
+      "id": "5R9sdbp3hr0rgSYO3pQrfl",
+      "duration_ms": 396666
+    },
+    {
+      "query": "Chromeo Jealous (I Ain't With It)",
+      "id": "0CaHZUniQtDRZleX6XK9p7",
+      "duration_ms": 228026
+    },
+    {
+      "query": "Anderson .Paak Carry Me",
+      "id": "2GabqTKoDZz11jJSqsoREp",
+      "duration_ms": 331631
+    },
+    {
+      "query": "Emily King Remind Me",
+      "id": "5Y55KLlrLZr8BwLkYQ7QDd",
+      "duration_ms": 243826
+    },
+    {
+      "query": "Hiatus Kaiyote Get Sun",
+      "id": "5CBEzaNEuv3OO32kZoXgOX",
+      "duration_ms": 337626
+    },
+    {
+      "query": "Lizzo Juice",
+      "id": "0k664IuFwVP557Gnx7RhIl",
+      "duration_ms": 195333
+    },
+    {
+      "query": "Little Dragon Twice",
+      "id": "49Su9fsYwmnnuJSyxj48kL",
+      "duration_ms": 186186
+    },
+    {
+      "query": "Janelle Monáe Tightrope",
+      "id": "1ljzHUgt2SU2ADkhfa9eBC",
+      "duration_ms": 262586
+    },
+    {
+      "query": "Roy Ayers Everybody Loves the Sunshine",
+      "id": "5le4sn0iMcnKU56bdmNzso",
+      "duration_ms": 239666
+    },
+    {
+      "query": "Snoh Aalegra Find Someone Like You",
+      "id": "3fQDsWjihrm854Cx5T1jfc",
+      "duration_ms": 206465
+    },
+    {
+      "query": "Gretchen Parlato Butterfly",
+      "id": "5wgxOnyLvseBkoUPMSD2mN",
+      "duration_ms": 462301
+    },
+    {
+      "query": "Corinne Bailey Rae Put Your Records On",
+      "id": "2nGFzvICaeEWjIrBrL2RAx",
+      "duration_ms": 215360
+    },
+    {
+      "query": "Men I Trust Seven",
+      "id": "5QvditjxADt1HMKPgaMjJm",
+      "duration_ms": 225394
+    },
+    {
+      "query": "The Internet Roll (Burbank Funk)",
+      "id": "01bfHCsUTwydXCHP1VoLlI",
+      "duration_ms": 191027
+    },
+    {
+      "query": "KAYTRANADA Lite Spots",
+      "id": "3Fc7k96EGOGiJBMZUxbpq7",
+      "duration_ms": 230920
+    },
+    {
+      "query": "Durand Bernarr Stuck",
+      "id": "7EXvZP4EJrwD9dVKMyKeGz",
+      "duration_ms": 261500
+    },
+    {
+      "query": "Chic Le Freak",
+      "id": "4qL9VYPB4XwJKAOq4xn2Mh",
+      "duration_ms": 327573
+    },
+    {
+      "query": "Toro y Moi Ordinary Pleasure",
+      "id": "0Dh7LsAuAyaaucEMD5ULHV",
+      "duration_ms": 183752
+    },
+    {
+      "query": "Hiatus Kaiyote Nakamarra",
+      "id": "1I0O4q0Pq5x6n9d24Es5uN",
+      "duration_ms": 274213
+    },
+    {
+      "query": "Floetry Say Yes",
+      "id": "2fE4MbwX3QGMzNaMjGVhtw",
+      "duration_ms": 268373
+    },
+    {
+      "query": "Tuxedo Do It",
+      "id": "79t0exFoQU0jlcpBLJrqes",
+      "duration_ms": 258502
+    },
+    {
+      "query": "GOTA In The City Life",
+      "id": "4l5uxmrBy57ccTRyF8K1lJ",
+      "duration_ms": 216000
+    },
+    {
+      "query": "Prince Kiss",
+      "id": "62LJFaYihsdVrrkgUOJC05",
+      "duration_ms": 226240
+    },
+    {
+      "query": "Parliament Flash Light",
+      "id": "1v1PV2wERHiMPesMWX0qmO",
+      "duration_ms": 346666
+    },
+    {
+      "query": "Purple Disco Machine Hypnotized",
+      "id": "0HNDr5c2IOIvfe8DPwjVO9",
+      "duration_ms": 195704
+    },
+    {
+      "query": "Lianne La Havas What You Don't Do",
+      "id": "2pygzLN7fwCgeW5FNaugEm",
+      "duration_ms": 229958
+    },
+    {
+      "query": "Sir Woman Making Love",
+      "id": "62gJ9HMWJdiOTWB3rwrTBL",
+      "duration_ms": 201253
+    },
+    {
+      "query": "Allen Stone Consider Me",
+      "id": "6eA8pANu9ryDcoTTe5myKk",
+      "duration_ms": 184952
+    },
+    {
+      "query": "Rhye Open",
+      "id": "2IqjKEBiz0CdLKdkXhxw84",
+      "duration_ms": 223600
+    },
+    {
+      "query": "Esperanza Spalding I Know You Know (Live)",
+      "id": "0CjJqkWOpIUXdem5hUcxAk",
+      "duration_ms": 283120
+    },
+    {
+      "query": "Emily King Look At Me Now",
+      "id": "4cA8zBZJpM26Y4jUCJMpFJ",
+      "duration_ms": 192453
+    },
+    {
+      "query": "Vulfpeck Wait for the Moment",
+      "id": "6Sex737JxUArLplUR9hzPE",
+      "duration_ms": 230676
+    },
+    {
+      "query": "Cautious Clay Cold War",
+      "id": "2GnmsSi16I8TcBMYejR7Mb",
+      "duration_ms": 202597
+    },
+    {
+      "query": "José James Turn Me Up",
+      "id": "3FizieI3OACCjc1UGC6kHd",
+      "duration_ms": 233429
+    },
+    {
+      "query": "Vulfpeck Wait for the Moment (Live)",
+      "id": "3MOzx4gpybclmneLnxqYQj",
+      "duration_ms": 390012
+    },
+    {
+      "query": "Jungle Heavy, California",
+      "id": "34wcz4mpAActEc6gtqX3wz",
+      "duration_ms": 184599
+    },
+    {
+      "query": "Cleo Sol Why Don't You",
+      "id": "6RQ0i7rApnnWSI8uEiGVVF",
+      "duration_ms": 228990
+    },
+    {
+      "query": "Calvin Harris Slide",
+      "id": "7tr2za8SQg2CI8EDgrdtNl",
+      "duration_ms": 230813
+    },
+    {
+      "query": "Khruangbin Evan Finds the Third Room",
+      "id": "6u9UBhoz36duB4eLoYuPB9",
+      "duration_ms": 240743
+    },
+    {
+      "query": "Bruno Mars Versace on the Floor",
+      "id": "4pryE6cN2gFL1FVF5fYINl",
+      "duration_ms": 242096
+    },
+    {
+      "query": "The Gap Band Outstanding",
+      "id": "2yd0XI7g0BhAgY9GkpPClU",
+      "duration_ms": 198800
+    },
+    {
+      "query": "Durand Jones & The Indications Witchoo",
+      "id": "6W9rbkBueZQrwuzO24GHZ2",
+      "duration_ms": 222901
+    },
+    {
+      "query": "Durand Jones Morning in America",
+      "id": "7JQklc6tD7nkElX2V6bWkk",
+      "duration_ms": 231249
+    },
+    {
+      "query": "Cory Wong Light As Anything",
+      "id": "0Y8kxAuBh8Oc8n6cyDTQ8Q",
+      "duration_ms": 291133
+    },
+    {
+      "query": "SG Lewis One More",
+      "id": "5bZlKUqFIf0uM3MW03bhlG",
+      "duration_ms": 196182
+    },
+    {
+      "query": "Masego Tadow",
+      "id": "6FMMd1fixOMmhplCevpjL7",
+      "duration_ms": 301893
+    },
+    {
+      "query": "ROMderful Kiss and Tell",
+      "id": "2fSzKr2j61NQNkeHRmL4On",
+      "duration_ms": 194029
+    },
+    {
+      "query": "FKJ Skyline",
+      "id": "5kc6erfW0v4PtsBtRJpf0Z",
+      "duration_ms": 249847
+    },
+    {
+      "query": "Tower of Power What Is Hip",
+      "id": "66TSoVnJ1P9Tyok03zUlTr",
+      "duration_ms": 304733
+    },
+    {
+      "query": "Anderson .Paak Am I Wrong",
+      "id": "1UjyF6okUHhnVxaLV8ojsA",
+      "duration_ms": 253520
+    },
+    {
+      "query": "Robert Glasper So Beautiful",
+      "id": "1q2Jzd23O49Crk91Rijl7Y",
+      "duration_ms": 449774
+    },
+    {
+      "query": "Corrine Bailey Rae Green Aphrodisiac",
+      "id": "1Bt675wWLFEoeljgyHejdx",
+      "duration_ms": 332496
+    },
+    {
+      "query": "Emily King Georgia",
+      "id": "4Aj1eHsMtEmjpJUWdUWiVa",
+      "duration_ms": 243533
+    },
+    {
+      "query": "Moonchild What You Wanted",
+      "id": "3Qtf244hlURc8T9kp8wEb2",
+      "duration_ms": 206837
+    },
+    {
+      "query": "Mark Ronson Valerie",
+      "id": "6kopmMZiyLmw7h66uXcXR7",
+      "duration_ms": 219413
+    },
+    {
+      "query": "Nick Hakim Happen",
+      "id": "2fo5XVkVtd91WoSArcFemh",
+      "duration_ms": 253373
+    },
+    {
+      "query": "Donald Byrd Love Has Come Around",
+      "id": "0jA2HEWkUZFo0lyQ0NsBi0",
+      "duration_ms": 472866
+    },
+    {
+      "query": "KING Hey",
+      "id": "1dayf4PINvf9PwbwR8SsiO",
+      "duration_ms": 187666
+    },
+    {
+      "query": "Emily King Distance",
+      "id": "1IlBPaXuM7Fl6tiH9CPQlQ",
+      "duration_ms": 231448
+    },
+    {
+      "query": "Sade Kiss of Life",
+      "id": "4S0NYVAQdIb81uLoZoQmgq",
+      "duration_ms": 350000
+    },
+    {
+      "query": "Disclosure Latch",
+      "id": "51ODNNDZm21HU7wI7cccRr",
+      "duration_ms": 255631
+    },
+    {
+      "query": "Nick Hakim Roller Skates",
+      "id": "1CkFIVa8oNnwUiquBgy8AL",
+      "duration_ms": 242506
+    },
+    {
+      "query": "Chaka Khan Like Sugar",
+      "id": "0lWEatZXBBYUzEQX5aMeSj",
+      "duration_ms": 239621
+    },
+    {
+      "query": "Incognito Everyday",
+      "id": "5Qslq30iSn8DvJ6PhLOwa0",
+      "duration_ms": 289133
+    },
+    {
+      "query": "Prince I Wanna Be Your Lover",
+      "id": "4yrM5BVyJzy5Ed4GPO6e8j",
+      "duration_ms": 347666
+    },
+    {
+      "query": "Snoh Aalegra I Want You Around",
+      "id": "2gjidmxtA1pyj2HYrdOTG1",
+      "duration_ms": 212787
+    },
+    {
+      "query": "Amber Mark Mixer",
+      "id": "58pJZsMEPXmYX8gvXWyt3V",
+      "duration_ms": 192823
+    },
+    {
+      "query": "Jacob Banks Chainsmoking",
+      "id": "1EZfCViOJ9XKFbwX8FkZUF",
+      "duration_ms": 192720
+    },
+    {
+      "query": "Cameo Candy",
+      "id": "0Aj8EagrPfDoOe5OlUdrLC",
+      "duration_ms": 339933
+    },
+    {
+      "query": "Nao Another Lifetime",
+      "id": "48WTGGIeSFD5ZMF51Rm4Y9",
+      "duration_ms": 209466
+    },
+    {
+      "query": "Anderson .Paak Come Down",
+      "id": "276zciJ7Fg7Jk6Ta6QuLkp",
+      "duration_ms": 169726
+    },
+    {
+      "query": "Mark Ronson Uptown Funk",
+      "id": "32OlwWuMpZ6b0aN2RZOeMS",
+      "duration_ms": 269658
+    },
+    {
+      "query": "Hi-Five I Like the Way",
+      "id": "0u16RbrSY7DWF3WAr0aaZ3",
+      "duration_ms": 348773
+    }
+  ],
+  "rotation_queries": [
+    {
+      "query": "Red Hot Chili Peppers Dani California",
+      "id": "10Nmj3JCNoMeBQ87uw5j8k",
+      "duration_ms": 282160
+    },
+    {
+      "query": "Linkin Park Crawling",
+      "id": "2nLtzopw4rPReszdYBJU6h",
+      "duration_ms": 187520
+    },
+    {
+      "query": "Muse Uprising",
+      "id": "0c4IEciLCDdXEhhKxj4ThA",
+      "duration_ms": 281040
+    },
+    {
+      "query": "Stone Sour Through Glass",
+      "id": "5NeIONQWJ25uPylJBJiO4c",
+      "duration_ms": 282946
+    },
+    {
+      "query": "Paramore Misery Business",
+      "id": "3l9CW99AHtExIRV4hW2N5m",
+      "duration_ms": 211520
+    },
+    {
+      "query": "Nirvana Come As You Are",
+      "id": "1caUjUoE2lm6x9RDY7YtHc",
+      "duration_ms": 218920
+    },
+    {
+      "query": "Queens of the Stone Age No One Knows",
+      "id": "6y20BV5L33R8YXM0YuI38N",
+      "duration_ms": 278746
+    },
+    {
+      "query": "Rage Against The Machine Bulls on Parade",
+      "id": "0tZ3mElWcr74OOhKEiNz1x",
+      "duration_ms": 229466
+    },
+    {
+      "query": "Arctic Monkeys Do I Wanna Know?",
+      "id": "7xmwLmkoWpghkq8jyEhtbx",
+      "duration_ms": 273424
+    },
+    {
+      "query": "Limp Bizkit Re-Arranged",
+      "id": "5SEBSAio1N77Vbrj1cAEGb",
+      "duration_ms": 289866
+    },
+    {
+      "query": "Yeah Yeah Yeahs Heads Will Roll",
+      "id": "2WRFD9WczJ975X2K1Y9YVs",
+      "duration_ms": 221000
+    },
+    {
+      "query": "Incubus Drive",
+      "id": "7nnWIPM5hwE3DaUBkvOIpy",
+      "duration_ms": 232453
+    },
+    {
+      "query": "Stone Temple Pilots Interstate Love Song",
+      "id": "600s08VdbjiyAjDGDjYSFI",
+      "duration_ms": 193613
+    },
+    {
+      "query": "Nine Inch Nails The Hand That Feeds",
+      "id": "5ugzDiilhy6ILKmKfhEzd7",
+      "duration_ms": 211680
+    },
+    {
+      "query": "Alice in Chains Down in a Hole",
+      "id": "2yBAPa9HZj3P2szSaaj4k1",
+      "duration_ms": 346026
+    },
+    {
+      "query": "Queens of the Stone Age Go With the Flow",
+      "id": "0wzRcekWyVCSyPtlPOeJau",
+      "duration_ms": 187146
+    },
+    {
+      "query": "Foo Fighters Everlong",
+      "id": "5UWwZ5lm5PKu6eKsHAGxOk",
+      "duration_ms": 250546
+    },
+    {
+      "query": "Audioslave Like a Stone",
+      "id": "3YuaBvuZqcwN3CEAyyoaei",
+      "duration_ms": 293960
+    },
+    {
+      "query": "Weezer Say It Ain't So",
+      "id": "56MEbUIvvfEEkLIl51wxGD",
+      "duration_ms": 258853
+    },
+    {
+      "query": "Korn Another Brick in the Wall",
+      "id": "5fBI2YzuyOVF0nkYjIGjJv",
+      "duration_ms": 427986
+    },
+    {
+      "query": "The Killers When You Were Young",
+      "id": "70wYA8oYHoMzhRRkARoMhU",
+      "duration_ms": 220426
+    },
+    {
+      "query": "Pearl Jam Last Kiss",
+      "id": "0QnONzv3TvHAWk294h6DaQ",
+      "duration_ms": 195466
+    },
+    {
+      "query": "Smashing Pumpkins 1979",
+      "id": "3h5zik31hTTat9jmpCZZNC",
+      "duration_ms": 263573
+    },
+    {
+      "query": "Bush Glycerine",
+      "id": "5buITai6eMzU8rJonMEI6e",
+      "duration_ms": 266493
+    },
+    {
+      "query": "Soundgarden Black Hole Sun",
+      "id": "2EoOZnxNgtmZaD8uUmz2nD",
+      "duration_ms": 318586
+    },
+    "Red Hot Chili Peppers Can't Stop",
+    "Red Hot Chili Peppers By the Way",
+    "Queens of the Stone Age Little Sister",
+    "Queens of the Stone Age Make It Wit Chu",
+    "Arctic Monkeys R U Mine?",
+    "Arctic Monkeys Arabella",
+    "The Strokes Reptilia",
+    "The Strokes Last Nite",
+    "Franz Ferdinand Take Me Out",
+    "The Killers Mr. Brightside",
+    "The Killers Somebody Told Me",
+    "Foo Fighters Best of You",
+    "Foo Fighters Learn to Fly",
+    "Audioslave Cochise",
+    "Muse Hysteria",
+    "Muse Starlight",
+    "Royal Blood Figure It Out",
+    "Royal Blood Out of the Black",
+    "The White Stripes Seven Nation Army",
+    "The White Stripes Blue Orchid",
+    "The Black Keys Gold on the Ceiling",
+    "The Black Keys Lonely Boy",
+    "Jet Are You Gonna Be My Girl",
+    "The Raconteurs Steady, As She Goes",
+    "Kings of Leon Sex on Fire",
+    "Kings of Leon Use Somebody",
+    "Incubus Pardon Me",
+    "Incubus Wish You Were Here",
+    "Soundgarden Spoonman",
+    "Soundgarden Fell on Black Days",
+    "Pearl Jam Even Flow",
+    "Pearl Jam Alive",
+    "Alice in Chains Man in the Box",
+    "Stone Temple Pilots Plush",
+    "Bush Machinehead",
+    "Smashing Pumpkins Bullet with Butterfly Wings",
+    "Smashing Pumpkins Today",
+    "Nirvana In Bloom",
+    "Nirvana Lithium",
+    "Paramore That's What You Get",
+    "Paramore Decode",
+    "Linkin Park Faint",
+    "Linkin Park Somewhere I Belong",
+    "Rage Against The Machine Killing In The Name",
+    "Rage Against The Machine Guerrilla Radio",
+    "Nine Inch Nails Closer",
+    "Nine Inch Nails Only",
+    "Interpol Evil",
+    "Interpol Slow Hands",
+    "Yeah Yeah Yeahs Maps",
+    "Bloc Party Banquet",
+    "The Hives Hate to Say I Told You So",
+    "Cage the Elephant Ain't No Rest for the Wicked",
+    "Cage the Elephant Come a Little Closer",
+    "The Vines Get Free",
+    "The Bravery An Honest Mistake",
+    "The Kooks Naive",
+    "Modest Mouse Dashboard",
+    "The Offspring Want You Bad",
+    "Jimmy Eat World The Middle",
+    "Silversun Pickups Lazy Eye",
+    "Wolfmother Joker and the Thief",
+    "The Temper Trap Sweet Disposition",
+    "The Stone Roses Love Spreads",
+    "Placebo Every You Every Me",
+    "Kasabian Club Foot",
+    "Editors Munich",
+    "The Cure Just Like Heaven",
+    "The Cars Just What I Needed",
+    "Pixies Here Comes Your Man",
+    "Blur Song 2",
+    "Beck E-Pro",
+    "Gorillaz Feel Good Inc.",
+    "TV On The Radio Wolf Like Me",
+    "Phoenix Lisztomania"
+  ],
+  "seed_genres": [],
+  "block_config": [
+    {
+      "label": "warmup_soul",
+      "count": 45
+    },
+    {
+      "label": "high_energy_funk",
+      "count": 55
+    },
+    {
+      "label": "wind_down",
+      "count": 40
+    }
+  ]
+}
